@@ -1,19 +1,20 @@
 import React from "react";
-// import "./style.css";
+import "../App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-function Project(props) {
+const Project = (props) => {
     return (
         <div>
-            <a className="btn btn-primary icon"
-                href={props.appUrl}
-                role="button">
-                <img src={props.img}
-                    alt="PWcover"
-                    className="img-thumbnail">{props.name}</img></a>
-            <a className="linkColor"
-                href={props.codeUrl}>click to view supporting code</a>
+            <div class="project-card d-flex justify-content-center">
+                <a class="btn" href={props.appUrl} role="button"><img
+                    src={props.img}></img><p>{props.name}</p></a>
+
+            </div>
+            <a className="linkColor label"
+                href={props.codeUrl}>Repository<br /><hr /></a>
         </div>
     )
 }
 export default Project
+
+
