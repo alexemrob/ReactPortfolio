@@ -1,4 +1,4 @@
-# ReactPortfolio
+# React Js Portfolio
 ## Usage
 <a href="https://alexemrob.github.io/Responsive-Portfolio/">Visit my portfolio </a> to:
 <ul><li>Learn about me</li>
