@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 import Wrapper from "./components/Wrapper"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar"
 import AboutMe from "./components/AboutMe"
 import Portfolio from "./components/Portfolio"
@@ -11,7 +11,7 @@ import Footer from "./components/Footer"
 function App() {
 
   return (
-    <Router>
+    <HashRouter>
       <Navbar />
       <Wrapper>
         <Switch>
@@ -22,7 +22,7 @@ function App() {
         </Switch>
       </Wrapper>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 
