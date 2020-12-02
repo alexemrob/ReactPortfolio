@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 import Wrapper from "./components/Wrapper"
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar"
 import AboutMe from "./components/AboutMe"
 import Portfolio from "./components/Portfolio"
