@@ -6,14 +6,23 @@ import { Link } from "react-router-dom"
 function Navbar() {
   return (
     <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <Link class="nav-link" href="./AboutMe">Home</ Link>
+      <li className="nav-item">
+        <Link
+          to="/AboutMe"
+          className={window.location.pathname === "/saved" ? "nav-link active" : "nav-link"}
+        >Home</Link>
       </li>
-      <li class="nav-item">
-        <Link class="nav-link" href="./Portfolio">Portfolio</ Link>
+      <li className="nav-item">
+        <Link
+          to="/Portfolio"
+          className={window.location.pathname === "/Portfolio" ? "nav-link active" : "nav-link"}
+        >Portfolio</Link>
       </li>
-      <li class="nav-item">
-        <Link class="nav-link" href="./Contact">Contact</ Link>
+      <li className="nav-item">
+        <Link
+          to="/Contact"
+          className={window.location.pathname === "/Contact" ? "nav-link active" : "nav-link"}
+        >Contact</Link>
       </li>
     </ul>
   )
