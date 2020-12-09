@@ -18,7 +18,7 @@ h1{
 }
 .nav-link:hover{
   color: white;
-  background-color: black;
+  background-color: #bba68f;
 }
 .linkColor{
   color: black;
@@ -27,14 +27,14 @@ h1{
 }
 .linkColor:hover{
   color: white;
-  background-color: black;
+  background-color: #bba68f;
 }
 .btn{
   color: black;
 }
 .btn:hover{
-  color: grey;
-  background-color: black;
+  color: white;
+  background-color: #bba68f;
 }
 .project-card{
   border-style: solid;
